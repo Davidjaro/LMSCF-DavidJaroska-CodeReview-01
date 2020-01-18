@@ -1,0 +1,176 @@
+	body{
+		font: 15px/1.5 Arial, Helvetica, sans-serif;
+		padding: 0;
+		margin: 0;
+		background-color: #f4f4f4;
+	}
+
+	/* Für den Inhalt der Seite */
+	.container{
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Header */
+	header{
+		background-color: #f9a78e;
+		color: black;
+		padding-top: 30px;
+		min-height: 120px;
+		border: #000;
+		background-image: url('./img/logo.png');
+		background-position: center right 360px;
+		background-repeat: no-repeat;
+		background-size: 300px;
+	}
+
+	/* Navigation bar*/
+	#navbar{
+		background: #CB6868;
+		min-height: 60px;
+		padding-top: 20px;
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li{
+		float: right;
+		padding: 0 20px 0 20px;
+		list-style: none;
+	}
+
+	nav a{
+		color: white;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	/* Website :D*/
+	#First{
+		min-height: 400px;
+		text-align: center;
+	}
+
+	#First h2{
+		font-weight: bold;
+		font-size: 64px;
+		margin-top: 120px;
+		margin-bottom: 120px;
+	}
+
+	/* Samsung Picture and Text*/
+	#samsung{
+		margin-top: 20px;
+	}
+	#samsung .pictures{
+ 		float:left;
+  		text-align: center;
+  		width:100%;
+  	}
+  	#samsung .pictures img{
+  		width: 100%;
+  		object-fit: cover;
+  		padding: 10px;
+  	}
+
+	/* Images and Text in columns*/
+	#column{
+		margin-bottom: 20px;
+		margin-top: 20px;
+		min-height: 120px
+	}
+	#column .right{
+		width: 45%;
+		min-height: 400px;
+		float: right;
+		text-align: center;
+	}
+	#column .left{
+		width: 45%;
+		min-height: 400px;
+		float: left;
+		text-align: center;
+	}
+	#column .left img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		padding: 10px;
+	}
+	#column .right img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		padding: 10px;
+	}
+	/* Footer and Logo*/
+	footer{
+		background-color: #debdb0;
+		color: black;
+		padding-top: 20px;
+		min-height: 120px;
+		border: #000;
+		background-image: url('./img/logo.png');
+		background-position: center top 15px;
+		background-repeat: no-repeat;
+		background-size: 200px;
+		position: relative;
+		text-align: center;
+	}
+	footer p{
+		padding-top: 60px;
+	}
+
+	/* CSS für Blog und .dark für Contact*/
+	aside#sidebar{
+		color: white;
+  		float:right;
+  		width:30%;
+  		margin-top:10px;
+	}
+	article#main-column{
+ 		float:left;
+  		width:65%;
+	}
+	.dark{
+		background: gray;
+		color: white;
+		padding: 10px;
+	}
+	/* CSS für Contact Felder */
+	ul#service li{
+  		list-style: none;
+  		padding:20px;
+  		border: #cccccc solid 1px;
+ 		margin-bottom:5px;
+  		background:#e6e6e6;
+		}
+	textarea{
+		height: 100px;
+		width: 400px;
+		padding: 10px;
+	}
+	/* CSS für Blog/Nearly Same concept as Contact*/
+	ul#blog li{
+  		list-style: none;
+  		padding:20px;
+  		border: #cccccc solid 1px;
+ 		margin-bottom:5px;
+  		background:#e6e6e6;
+	}
+	img.logo{
+		float: left;
+		width: 150px;
+		margin: 10px;
+		overflow: auto;
+	}
+	@media(max-width: 768px)
